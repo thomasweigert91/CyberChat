@@ -1,5 +1,6 @@
 import { Test, TestingModule } from "@nestjs/testing";
 import { AuthService } from "./auth.service";
+import { describe } from "vitest";
 import { JwtService } from "@nestjs/jwt";
 import { UsersService } from "src/users/users.service";
 import { beforeEach, describe, expect, it } from "vitest";
